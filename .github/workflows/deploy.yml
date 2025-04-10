@@ -1,17 +1,19 @@
-name: Deploy GitHub Pages
+name: Deploy to GitHub Pages
 
 on:
   push:
-    # Only run this workflow if changes occur outside the docs folder to avoid loops.
-    paths-ignore:
-      - 'docs/**'
+    branches:
+      - source
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout source
+      - name: Checkout source branch
         uses: actions/checkout@v3
+        with:
+          ref: source
 
       - name: Set up Node.js
         uses: actions/setup-node@v3
@@ -24,14 +26,17 @@ jobs:
       - name: Build the project
         run: npm run build
 
-      - name: Copy build output to docs folder
+      - name: Prepare deploy folder
         run: npm run deploy
 
-      - name: Commit and push docs folder
-        uses: EndBug/add-and-commit@v9
-        with:
-          author_name: 'GitHub Actions'
-          author_email: 'actions@github.com'
-          message: "Deploy [skip ci]: update docs folder"
-          add: 'docs'
-          branch: main
+      - name: Deploy to main branch
+        env:
+          DEPLOY_TOKEN: ${{ secrets.DEPLOY_TOKEN }}
+        run: |
+          cd deploy
+          git init
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add .
+          git commit -m "Deploy build output [skip ci]"
+          git push --force "https://${DEPLOY_TOKEN}@github.com/${{ github.repository }}.git" HEAD:main
