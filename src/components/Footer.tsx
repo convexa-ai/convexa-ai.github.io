@@ -33,12 +33,13 @@ const Footer = () => {
         
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-8 mb-16">
           <div className="lg:col-span-2">
-            <h3 className="text-white text-lg font-medium mb-4">Who we are</h3>
+            <h3 className="text-white text-xl font-medium mb-4">Who we are</h3>
             <p className="mb-4">
-            We’re a team of AI experts helping businesses turn strategy into intelligent systems
+            {/* We're a team of AI experts helping businesses turn strategy into intelligent systems */}
+            We're a team of AI experts helping businesses turn vision into actionable intelligence.
             </p>
             
-            {/* <div className="mt-8">
+            <div className="mt-8">
               <a href="#" className="block">
                 <svg width="200" height="120" viewBox="0 0 200 120" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M60,60 a30,30 0 1,0 0,1 z" fill="#FFC5F0" />
@@ -47,31 +48,33 @@ const Footer = () => {
                   <path d="M40,60 l40,0 q20,0 20,30 t-20,30 l-40,0 0,-60" fill="#FFC5F0" />
                 </svg>
               </a>
-            </div> */}
+            </div>
 
-<svg width="420" height="120" viewBox="0 0 420 120" xmlns="http://www.w3.org/2000/svg">
-  <rect width="100%" height="100%" fill="#004437" />
+        {/* <svg width="420" height="120" viewBox="0 0 420 120" xmlns="http://www.w3.org/2000/svg">
+          <rect width="100%" height="100%" fill="#004437" />
 
-  <text x="50%" y="50%" dominant-baseline="left" text-anchor="middle"
-        font-family="Helvetica, Arial, sans-serif"
-        font-size="60"
-        font-weight="900"
-        fill="#FFC5F0">
-    CONVEXA
-  </text>
-</svg>
+          <text x="50%" y="50%" dominant-baseline="left" text-anchor="middle"
+                font-family="Helvetica, Arial, sans-serif"
+                font-size="60"
+                font-weight="900"
+                fill="#FFC5F0">
+            CONVEXA
+          </text>
+        </svg> */}
           </div>
           
-          <div>
+          {/* Harman: follow us section removed for now */}
+           {/* <div>
             <h3 className="text-white text-lg font-medium mb-4">Follow us</h3>
             <ul className="space-y-2">
               <li><a href="#" className="hover:underline">Linkedin</a></li>
               <li><a href="#" className="hover:underline">Youtube</a></li>
               <li><a href="#" className="hover:underline">Twitter</a></li>
             </ul>
-          </div>
+          </div>  */}
+
           
-          <div>
+          <div className="lg:col-span-2 ml-auto justify-self-end">
             
             <p className="mb-4">Stay up to date</p>
             <div className="flex">
@@ -83,6 +86,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
+        
         
         <div className="border-t border-white/20 pt-8 flex flex-wrap justify-between text-sm">
           

@@ -49,13 +49,21 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
 				// Custom colors based on design
-				"convexa-yellow": "#FFEAA0",
-				"convexa-blue": "#B9D8FF",
-				"convexa-green": "#004538",
+				// "convexa-yellow": "#FFEAA0",
+				// "convexa-blue": "#B9D8FF",
+				// "convexa-green": "#004538",
+				// "convexa-pink": "#FFC5F0",
+				// "convexa-brown": "#5B3818",
+				// "convexa-red": "#FF5C38",
+				// "convexa-black": "#1A1F2C",
+				"convexa-yellow": "#E5A4C7", // lavender: C6C2F2, soft pink: E5A4C7
+				"convexa-blue": "#B9D8FF", //
+				"convexa-green": "#262628", // obsidian
 				"convexa-pink": "#FFC5F0",
 				"convexa-brown": "#5B3818",
 				"convexa-red": "#FF5C38",
 				"convexa-black": "#1A1F2C",
+
 			},
 			borderRadius: {
 				lg: 'var(--radius)',

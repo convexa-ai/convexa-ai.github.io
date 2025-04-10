@@ -28,7 +28,7 @@ const StatsSection = () => {
           <div className="h-[400px]">
             <StatCard 
               number="$990B" 
-              description="Projected global market value by 2027" 
+              description="Projected Global Market Value by 2027" 
               bgColor="bg-convexa-yellow" 
               textColor="text-convexa-black"
             />
@@ -37,7 +37,7 @@ const StatsSection = () => {
           <div className="h-[400px]">
             <StatCard 
               number="3.7x" 
-              description="ROI from AI investments" 
+              description="Return on Investment from AI Adoption" 
               bgColor="bg-convexa-brown" 
               textColor="text-white"
             />
@@ -46,7 +46,7 @@ const StatsSection = () => {
           <div className="h-[400px]">
             <StatCard 
               number="20%" 
-              description="Increase in Generative AI adoption from 2023" 
+              description="Growth in Generative AI Adoption in 2024 over last year" 
               bgColor="bg-convexa-blue" 
               textColor="text-convexa-black"
             />
@@ -55,7 +55,7 @@ const StatsSection = () => {
           <div className="h-[400px]">
             <StatCard 
               number="2.5x" 
-              description="Higher revenue growth" 
+              description="Higher Revenue Growth than Peer Companies" 
               bgColor="bg-convexa-red" 
               textColor="text-white"
             />

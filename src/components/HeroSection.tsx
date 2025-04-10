@@ -42,10 +42,11 @@ const HeroSection = () => {
           {/* Text content */}
           <div className="w-full lg:w-1/2">
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-4">
-            Strategic AI consulting to unlock your company's <span className="italic">Success</span>
+            Strategic AI consulting to unlock your <span className="italic">Success</span>
             </h1>
             <p className="text-lg mb-8">
-            We help you identify high-leverage AI opportunities, design tailored solutions, and implement them with speed and clarity.
+            {/* We help you identify high-leverage AI opportunities, design tailored solutions, and implement them with speed and clarity. */}
+            Identify high-value AI opportunities, implement tailored solutions, and accelerate your competitive edge.
             </p>
             <button className="bg-orange-500 hover:bg-orange-600 transition-colors text-white px-6 py-3 rounded-full flex items-center text-lg">
               <span>Contact us</span>
