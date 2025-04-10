@@ -2,10 +2,12 @@ name: Deploy GitHub Pages
 
 on:
   push:
-    branches: [ main ]
+    # Only run this workflow if changes occur outside the docs folder to avoid loops.
+    paths-ignore:
+      - 'docs/**'
 
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout source
@@ -22,11 +24,14 @@ jobs:
       - name: Build the project
         run: npm run build
 
-      - name: List build output
-        run: ls -R ./dist
+      - name: Copy build output to docs folder
+        run: npm run deploy
 
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
+      - name: Commit and push docs folder
+        uses: EndBug/add-and-commit@v9
         with:
-          github_token: ${{ secrets.GH_PAGES_TOKEN }}
-          publish_dir: ./dist
+          author_name: 'GitHub Actions'
+          author_email: 'actions@github.com'
+          message: "Deploy [skip ci]: update docs folder"
+          add: 'docs'
+          branch: main
