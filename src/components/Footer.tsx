@@ -74,7 +74,7 @@ const Footer = () => {
           </div>  */}
 
           
-          <div className="lg:col-span-2 ml-auto justify-self-end">
+          {/* <div className="lg:col-span-2 ml-auto justify-self-end">
             
             <p className="mb-4">Stay up to date</p>
             <div className="flex">
@@ -84,7 +84,7 @@ const Footer = () => {
                 <ArrowRight className="h-5 w-5" />
               </button>
             </div>
-          </div>
+          </div> */}
         </div>
         
         
