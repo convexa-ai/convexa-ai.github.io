@@ -1,7 +1,8 @@
 import React from 'react';
 import { ArrowRight } from 'lucide-react';
 const HeroSection = () => {
-  return <section className="w-full bg-convexa-yellow min-h-screen flex items-center py-16 overflow-hidden">
+  return (
+    <section className="w-full bg-convexa-yellow min-h-screen flex items-center py-16 overflow-hidden">
       <div className="container mx-auto px-4">
         <div className="flex flex-col lg:flex-row items-center justify-between gap-8">
           {/* Globe image with email overlay */}
@@ -42,19 +43,19 @@ const HeroSection = () => {
           {/* Text content */}
           <div className="w-full lg:w-1/2">
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-4">
-            Strategic AI consulting to unlock your company's <span className="italic">success</span>
+              Unlock Your Business Potential with Strategic AI
             </h1>
             <p className="text-lg mb-8">
-            {/* We help you identify high-leverage AI opportunities, design tailored solutions, and implement them with speed and clarity. */}
-            Identify high-value AI opportunities, implement tailored solutions, and accelerate your competitive edge.
+              We identify high-value opportunities, tailor AI solutions to your needs, and drive lasting competitive advantage. Partner with us to transform your operations and embrace the future of intelligent innovation.
             </p>
             <button className="bg-orange-500 hover:bg-orange-600 transition-colors text-white px-6 py-3 rounded-full flex items-center text-lg">
-              <span>Contact us</span>
+              <span>Contact Us</span>
               <ArrowRight className="ml-2 h-5 w-5" />
             </button>
           </div>
         </div>
       </div>
-    </section>;
+    </section>
+  );
 };
 export default HeroSection;
