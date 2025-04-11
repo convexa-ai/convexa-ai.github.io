@@ -38,7 +38,7 @@ const TimelineStep = ({
               <>
                 <span className="text-xl text-gray-500">STEP {number}</span>
                 <h3 className="text-4xl font-bold mb-3">{title}</h3>
-                <p className="text-2xl text-gray-600">{description}</p>
+                <p className="text-xl text-gray-600">{description}</p>
               </>
             )}
           </div>
@@ -51,7 +51,7 @@ const TimelineStep = ({
               <>
                 <span className="text-xl text-gray-500">STEP {number}</span>
                 <h3 className="text-4xl font-bold mb-3">{title}</h3>
-                <p className="text-2xl text-gray-600">{description}</p>
+                <p className="text-xl text-gray-600">{description}</p>
               </>
             )}
           </div>

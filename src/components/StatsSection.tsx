@@ -51,7 +51,7 @@ const StatsSection = () => {
           <div className="h-[400px]">
             <StatCard 
               number="7.5hrs" 
-              description="Avg employee time saved per week using AI"
+              description="Average employee time saved per week using AI"
               bgColor="bg-convexa-blue" 
               textColor="text-convexa-black"
             />
