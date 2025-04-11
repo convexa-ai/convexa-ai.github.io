@@ -111,7 +111,7 @@ const HowItWorksSection = () => {
         <h2 className="text-5xl md:text-6xl lg:text-7xl font-bold text-center mb-12">
           Your Roadmap to <span className="italic">AI Transformation</span>
         </h2>
-        <p className="text-3xl text-center max-w-4xl mx-auto mb-32">
+        <p className="text-xl text-center max-w-4xl mx-auto mb-32">
           Partner with us to navigate a structured, five-step approach that transforms challenges into opportunities for growth.
         </p>
         
