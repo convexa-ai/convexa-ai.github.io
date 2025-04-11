@@ -25,7 +25,7 @@ const StatsSection = () => {
           The <span className="italic">AI</span> Wave is <span className="italic">Here</span>
         </h2>
 
-        <p className="text-xl md:text-2xl text-center text-gray-600 mb-12">
+        <p className="text-xl text-center text-gray-600 mb-12">
           Don't get left behind—capitalize on AI and future‑proof your business.
         </p>
         
