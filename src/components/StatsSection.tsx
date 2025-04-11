@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 type StatCardProps = {
   number: string;
   description: string;
@@ -21,14 +22,18 @@ const StatsSection = () => {
     <section className="w-full min-h-screen flex items-center py-16 bg-white">
       <div className="container mx-auto px-4">
         <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-4">
-          The <span className="italic">AI</span> Opportunity
+          The <span className="italic">AI</span> Wave is <span className="italic">Here</span>
         </h2>
+
+        <p className="text-xl text-center text-gray-600 mb-12">
+          Don't get left behind—capitalize on AI and future‑proof your business.
+        </p>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-16">
           <div className="h-[400px]">
             <StatCard 
-              number="$990B" 
-              description="Projected Global Market Value by 2027" 
+              number="3.7x" 
+              description="Average ROI from AI adoption" 
               bgColor="bg-convexa-yellow" 
               textColor="text-convexa-black"
             />
@@ -36,8 +41,8 @@ const StatsSection = () => {
           
           <div className="h-[400px]">
             <StatCard 
-              number="3.7x" 
-              description="Return on Investment from AI Adoption" 
+              number="40%"
+              description="Productivity boost with AI tools" 
               bgColor="bg-convexa-brown" 
               textColor="text-white"
             />
@@ -45,8 +50,8 @@ const StatsSection = () => {
           
           <div className="h-[400px]">
             <StatCard 
-              number="20%" 
-              description="Growth in Generative AI Adoption in 2024 over last year" 
+              number="7.5hrs" 
+              description="Average employee time saved per week using AI"
               bgColor="bg-convexa-blue" 
               textColor="text-convexa-black"
             />
@@ -55,7 +60,7 @@ const StatsSection = () => {
           <div className="h-[400px]">
             <StatCard 
               number="2.5x" 
-              description="Higher Revenue Growth than Peer Companies" 
+              description="Higher revenue growth compared to peers" 
               bgColor="bg-convexa-red" 
               textColor="text-white"
             />

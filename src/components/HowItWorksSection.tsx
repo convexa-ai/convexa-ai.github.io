@@ -38,7 +38,7 @@ const TimelineStep = ({
               <>
                 <span className="text-xl text-gray-500">STEP {number}</span>
                 <h3 className="text-4xl font-bold mb-3">{title}</h3>
-                <p className="text-2xl text-gray-600">{description}</p>
+                <p className="text-xl text-gray-600">{description}</p>
               </>
             )}
           </div>
@@ -51,7 +51,7 @@ const TimelineStep = ({
               <>
                 <span className="text-xl text-gray-500">STEP {number}</span>
                 <h3 className="text-4xl font-bold mb-3">{title}</h3>
-                <p className="text-2xl text-gray-600">{description}</p>
+                <p className="text-xl text-gray-600">{description}</p>
               </>
             )}
           </div>
@@ -66,7 +66,7 @@ const HowItWorksSection = () => {
     {
       number: 1,
       title: "AI Readiness Assessment",
-      description: "Evaluate your infrastructure, data maturity, and identify opportunities",
+      description: "Evaluate your technology landscape and data maturity to pinpoint immediate AI opportunities.",
       icon: <Settings className="h-4 w-4 text-white" />,
       color: "bg-convexa-red",
       position: "left" as const
@@ -74,7 +74,7 @@ const HowItWorksSection = () => {
     {
       number: 2,
       title: "Competitive Benchmarking",
-      description: "Assess your maturity against industry leaders and uncover disruptive trends",
+      description: "Measure your performance against industry leaders and uncover disruptive trends that can set you apart.",
       icon: <MessageSquare className="h-4 w-4 text-white" />,
       color: "bg-convexa-red",
       position: "right" as const
@@ -82,7 +82,7 @@ const HowItWorksSection = () => {
     {
       number: 3,
       title: "Strategy & Roadmap Development",
-      description: "Create a clear AI adoption plan by identifying high-impact use cases",
+      description: "Craft a clear, actionable AI strategy focused on high-impact use cases that align with your business objectives.",
       icon: <Users className="h-4 w-4 text-white" />,
       color: "bg-convexa-pink",
       position: "left" as const
@@ -90,7 +90,7 @@ const HowItWorksSection = () => {
     {
       number: 4,
       title: "Workforce Upskilling",
-      description: "Equip your team with the skills needed to adapt to AI-enabled workflows",
+      description: "Empower your team with the necessary skills and training to seamlessly integrate AI into everyday operations.",
       icon: <BarChart className="h-4 w-4 text-white" />,
       color: "bg-convexa-pink",
       position: "right" as const
@@ -98,7 +98,7 @@ const HowItWorksSection = () => {
     {
       number: 5,
       title: "Cost Benefit Analysis",
-      description: "Measure ROI, prioritize improvements, and scale successful AI initiatives",
+      description: "Quantitatively assess ROI, optimize investments, and scale successful AI initiatives for sustainable growth.",
       icon: <CheckCircle className="h-4 w-4 text-white" />,
       color: "bg-convexa-blue",
       position: "left" as const
@@ -109,10 +109,10 @@ const HowItWorksSection = () => {
     <section className="w-full min-h-screen py-16 bg-gray-100">
       <div className="container mx-auto px-4">
         <h2 className="text-5xl md:text-6xl lg:text-7xl font-bold text-center mb-12">
-          how can we <span className="italic">help?</span>
+          Your Roadmap to <span className="italic">AI Transformation</span>
         </h2>
-        <p className="text-3xl text-center max-w-4xl mx-auto mb-32">
-          We help organizations define and execute their AI strategies aligned with their business goals.
+        <p className="text-xl text-center max-w-4xl mx-auto mb-32">
+          Partner with us to navigate a structured, five-step approach that transforms challenges into opportunities for growth.
         </p>
         
         <div className="relative max-w-6xl mx-auto">
