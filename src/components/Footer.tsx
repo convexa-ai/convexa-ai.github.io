@@ -36,7 +36,7 @@ const Footer = () => {
           <div className="lg:col-span-2">
             <h3 className="text-white text-xl font-medium mb-4">Who We Are</h3>
             <p className="mb-4">
-              At Convexa AI, we bridge visionary insights with actionable strategies. Our team of seasoned experts harnesses the power of artificial intelligence to drive innovation, optimize operations, and deliver measurable results for your business.
+            At Convexa AI, we turn AI into real business results. Our experts help you innovate smarter, optimize faster, and achieve measurable growth.
             </p>
             
             <div className="mt-8">

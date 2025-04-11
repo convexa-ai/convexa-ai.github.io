@@ -109,7 +109,7 @@ const HowItWorksSection = () => {
     <section className="w-full min-h-screen py-16 bg-gray-100">
       <div className="container mx-auto px-4">
         <h2 className="text-5xl md:text-6xl lg:text-7xl font-bold text-center mb-12">
-          Your Roadmap to AI Transformation
+          Your Roadmap to <span className="italic">AI Transformation</span>
         </h2>
         <p className="text-3xl text-center max-w-4xl mx-auto mb-32">
           Partner with us to navigate a structured, five-step approach that transforms challenges into opportunities for growth.

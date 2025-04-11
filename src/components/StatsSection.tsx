@@ -22,14 +22,18 @@ const StatsSection = () => {
     <section className="w-full min-h-screen flex items-center py-16 bg-white">
       <div className="container mx-auto px-4">
         <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-4">
-          The AI Opportunity: Unlocking Exponential Value
+          The <span className="italic">AI</span> Wave is <span className="italic">Here</span>
         </h2>
+
+        <p className="text-xl md:text-2xl text-center text-gray-600 mb-12">
+          Don't get left behind—capitalize on AI and future‑proof your business.
+        </p>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-16">
           <div className="h-[400px]">
             <StatCard 
-              number="$990B" 
-              description="Estimated Global Market Value by 2027" 
+              number="3.7x" 
+              description="Average ROI from AI adoption" 
               bgColor="bg-convexa-yellow" 
               textColor="text-convexa-black"
             />
@@ -37,8 +41,8 @@ const StatsSection = () => {
           
           <div className="h-[400px]">
             <StatCard 
-              number="3.7x" 
-              description="Average ROI Achieved Through AI Investments" 
+              number="40%"
+              description="Productivity boost with AI tools" 
               bgColor="bg-convexa-brown" 
               textColor="text-white"
             />
@@ -46,8 +50,8 @@ const StatsSection = () => {
           
           <div className="h-[400px]">
             <StatCard 
-              number="20%" 
-              description="Annual Surge in Generative AI Adoption (2024)" 
+              number="7.5" 
+              description="Hours/week saved by consultants using AI" 
               bgColor="bg-convexa-blue" 
               textColor="text-convexa-black"
             />
@@ -56,7 +60,7 @@ const StatsSection = () => {
           <div className="h-[400px]">
             <StatCard 
               number="2.5x" 
-              description="Revenue Growth Exceeding Industry Peers" 
+              description="Higher revenue growth compared to peers" 
               bgColor="bg-convexa-red" 
               textColor="text-white"
             />
