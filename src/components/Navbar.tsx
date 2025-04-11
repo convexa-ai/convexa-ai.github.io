@@ -10,7 +10,7 @@ const Navbar = () => {
         <div className="max-w-7xl mx-auto flex items-center justify-between">
           <div className="flex items-center space-x-8">
             <div className="flex items-center">
-              <span className="text-2xl font-bold">convexa</span>
+              <span className="text-2xl font-bold">Convexa AI</span>
             </div>
             
             

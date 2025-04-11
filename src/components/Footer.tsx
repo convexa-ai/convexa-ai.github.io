@@ -39,13 +39,27 @@ const Footer = () => {
             We're a team of AI experts helping businesses turn vision into actionable intelligence.
             </p>
             
-            <div className="mt-8">
+            {/* <div className="mt-8">
               <a href="#" className="block">
                 <svg width="200" height="120" viewBox="0 0 200 120" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M60,60 a30,30 0 1,0 0,1 z" fill="#FFC5F0" />
                   <path d="M110,60 l40,0 q20,0 20,30 t-20,30 l-40,0 0,-60" fill="#FFC5F0" />
                   <path d="M170,60 l40,0 q20,0 20,30 t-20,30 l-40,0 0,-60" fill="#FFC5F0" />
                   <path d="M40,60 l40,0 q20,0 20,30 t-20,30 l-40,0 0,-60" fill="#FFC5F0" />
+                </svg>
+              </a>
+            </div> */}
+
+            <div className="mt-2">
+              <a href="#" className="block">
+                <svg width="300" height="100" xmlns="http://www.w3.org/2000/svg">
+                  <style>
+                    {`.text { font-family: 'Helvetica', sans-serif; font-size: 36px; font-weight: bold; fill: #FFC5F0; }
+                    .shape { fill: #FFC5F0; }`}
+                  </style>
+                   {/* Quarter circle convex shape */}
+                   <path className="shape" d="M0 20 A40 40 0 0 1 40 60 L0 60 Z" />
+                   <text x="50" y="60" className="text">Convexa AI</text>
                 </svg>
               </a>
             </div>
@@ -91,7 +105,7 @@ const Footer = () => {
         <div className="border-t border-white/20 pt-8 flex flex-wrap justify-between text-sm">
           
           <div className="text-white/60">
-            © {new Date().getFullYear()} Convexa. All rights reserved.
+            © {new Date().getFullYear()} Convexa AI. All rights reserved.
           </div>
         </div>
       </div>
