@@ -57,7 +57,7 @@ const HeroSection = () => {
               We identify high-value opportunities, tailor AI solutions to your needs, and drive lasting competitive advantage. Partner with us to rapidly integrate AI into your workflows and see measurable results.
             </p>
             <button 
-              onClick={() => window.location.href = 'mailto:hello@convexa.co'}
+              onClick={() => window.location.href = 'https://calendly.com/convexa-ai/free-consultation-call'}
               className="bg-orange-500 hover:bg-orange-600 transition-colors text-white px-6 py-3 rounded-full flex items-center text-lg"
             >
               <span>Book Free Consultation</span>
