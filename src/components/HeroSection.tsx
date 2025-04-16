@@ -9,7 +9,7 @@ const HeroSection = () => {
           {/* Robot mascot image */}
           <div className="w-full lg:w-1/2 relative flex justify-center">
             <img
-              src="/robot-mascot4.png"
+              src="/robot-mascot6.png"
               alt="Convexa AI Robot Mascot"
               width={2000}
               height={2000}
