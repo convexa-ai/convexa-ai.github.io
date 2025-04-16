@@ -19,7 +19,7 @@ const Navbar = () => {
           <div className="flex items-center space-x-4">
             
             
-            <a href="mailto:convexa.ai@gmail.com" className="bg-blue-500 text-white px-4 py-2 rounded-full flex items-center">
+            <a href="mailto:hello@convexa.co" className="bg-blue-500 text-white px-4 py-2 rounded-full flex items-center">
               <span>Contact us</span>
               {/* <ArrowRight className="ml-2 h-4 w-4" /> */}
             </a>
