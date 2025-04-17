@@ -68,6 +68,7 @@ const HowItWorksSection = () => {
       title: "AI Readiness Assessment",
       description: "Evaluate your technology landscape and data maturity to pinpoint immediate AI opportunities.",
       icon: <Settings className="h-4 w-4 text-white" />,
+      // color: "bg-convexa-lavendar",
       color: "bg-convexa-red",
       position: "left" as const
     },
@@ -84,7 +85,8 @@ const HowItWorksSection = () => {
       title: "Strategy & Roadmap Development",
       description: "Craft a clear, actionable AI strategy focused on high-impact use cases that align with your business objectives.",
       icon: <Users className="h-4 w-4 text-white" />,
-      color: "bg-convexa-pink",
+      // color: "bg-convexa-blue",
+      color: "bg-convexa-red",
       position: "left" as const
     },
     {
@@ -92,7 +94,8 @@ const HowItWorksSection = () => {
       title: "Workforce Upskilling",
       description: "Empower your team with the necessary skills and training to seamlessly integrate AI into everyday operations.",
       icon: <BarChart className="h-4 w-4 text-white" />,
-      color: "bg-convexa-pink",
+      // color: "bg-convexa-brown",
+      color: "bg-convexa-red",
       position: "right" as const
     },
     {
@@ -100,7 +103,8 @@ const HowItWorksSection = () => {
       title: "Cost Benefit Analysis",
       description: "Quantitatively assess ROI, optimize investments, and scale successful AI initiatives for sustainable growth.",
       icon: <CheckCircle className="h-4 w-4 text-white" />,
-      color: "bg-convexa-blue",
+      // color: "bg-convexa-pink",
+      color: "bg-convexa-red",
       position: "left" as const
     }
   ];

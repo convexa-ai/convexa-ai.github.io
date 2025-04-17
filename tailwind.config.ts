@@ -56,7 +56,8 @@ export default {
 				// "convexa-brown": "#5B3818",
 				// "convexa-red": "#FF5C38",
 				// "convexa-black": "#1A1F2C",
-				"convexa-yellow": "#C6C2F2", // lavender: C6C2F2, soft pink: E5A4C7
+				"convexa-lavendar": "#C6C2F2", // lavender: C6C2F2, soft pink: E5A4C7
+				// "convexa-yellow": "#f6b26b",	 // soft orange
 				"convexa-blue": "#B9D8FF", //
 				"convexa-green": "#262628", // obsidian
 				"convexa-pink": "#FFC5F0",

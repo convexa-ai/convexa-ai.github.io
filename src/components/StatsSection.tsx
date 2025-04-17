@@ -34,7 +34,7 @@ const StatsSection = () => {
             <StatCard 
               number="3.7x" 
               description="Average ROI from AI adoption" 
-              bgColor="bg-convexa-yellow" 
+              bgColor="bg-convexa-lavendar" 
               textColor="text-convexa-black"
             />
           </div>

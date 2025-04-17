@@ -3,7 +3,7 @@ import { ArrowRight } from 'lucide-react';
 
 const HeroSection = () => {
   return (
-    <section className="w-full bg-convexa-yellow min-h-screen flex items-center py-16 overflow-hidden">
+    <section className="w-full bg-convexa-lavendar min-h-screen flex items-center py-16 overflow-hidden">
       <div className="container mx-auto px-4">
         <div className="flex flex-col lg:flex-row items-center justify-between gap-8">
           {/* Robot mascot image */}
