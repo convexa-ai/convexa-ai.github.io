@@ -54,8 +54,8 @@ const Footer = () => {
               <a href="#" className="block">
                 <svg width="300" height="100" xmlns="http://www.w3.org/2000/svg">
                   <style>
-                    {`.text { font-family: 'Helvetica', sans-serif; font-size: 36px; font-weight: bold; fill: #FFC5F0; }
-                    .shape { fill: #FFC5F0; }`}
+                    {`.text { font-family: 'Helvetica', sans-serif; font-size: 36px; font-weight: bold; fill: #C6C2F2; }
+                    .shape { fill: #C6C2F2; }`}
                   </style>
                    {/* Quarter circle convex shape */}
                    <path className="shape" d="M0 20 A40 40 0 0 1 40 60 L0 60 Z" />
