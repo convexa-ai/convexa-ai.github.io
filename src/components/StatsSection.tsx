@@ -26,7 +26,7 @@ const StatsSection = () => {
         </h2>
 
         <p className="text-xl text-center text-gray-600 mb-12">
-          Don't get left behind—capitalize on AI and future‑proof your business.
+          Don't get left behind. Capitalize on AI and future‑proof your business.
         </p>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-16">

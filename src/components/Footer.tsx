@@ -34,9 +34,15 @@ const Footer = () => {
         
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-8 mb-16">
           <div className="lg:col-span-2">
-            <h3 className="text-white text-xl font-medium mb-4">Who We Are</h3>
+            {/* <h3 className="text-white text-xl font-medium mb-4">Who We Are</h3> */}
+            <div className="mt-2">
+              <a href="#" className="block">
+                <span className="text-2xl font-bold text-[#C6C2F2]">Convexa AI</span>
+              </a>
+            </div>
+            <br />
             <p className="mb-4">
-            At Convexa AI, we turn AI into real business results. Our experts help you innovate smarter, optimize faster, and achieve measurable growth.
+            We are a focused team of AI consultants who help businesses find and implement high-impact AI opportunities. Our approach is practical, results-driven, and tailored specifically to your goals.
             </p>
             
             {/* <div className="mt-8">
@@ -90,12 +96,6 @@ const Footer = () => {
               </a>
             </div>
           </div> */}
-
-          <div className="mt-2">
-              <a href="#" className="block">
-                <span className="text-2xl font-bold text-[#C6C2F2]">Convexa AI</span>
-              </a>
-            </div>
           </div>
           
           {/* Harman: follow us section removed for now */}
@@ -121,8 +121,6 @@ const Footer = () => {
             </div>
           </div> */}
         </div>
-        
-        
         <div className="border-t border-white/20 pt-8 flex flex-wrap justify-between text-sm">
           
           <div className="text-white/60">
