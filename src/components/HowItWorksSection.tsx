@@ -37,8 +37,8 @@ const TimelineStep = ({
             {position === 'left' && (
               <>
                 <span className="text-xl text-gray-500">STEP {number}</span>
-                <h3 className="text-4xl font-bold mb-3">{title}</h3>
-                <p className="text-xl text-gray-600">{description}</p>
+                <h3 className="text-2xl sm:text-4xl font-bold mb-3">{title}</h3>
+                <p className="text-base sm:text-xl text-gray-600">{description}</p>
               </>
             )}
           </div>
@@ -50,8 +50,8 @@ const TimelineStep = ({
             {position === 'right' && (
               <>
                 <span className="text-xl text-gray-500">STEP {number}</span>
-                <h3 className="text-4xl font-bold mb-3">{title}</h3>
-                <p className="text-xl text-gray-600">{description}</p>
+                <h3 className="text-2xl sm:text-4xl font-bold mb-3">{title}</h3>
+                <p className="text-base sm:text-xl text-gray-600">{description}</p>
               </>
             )}
           </div>
