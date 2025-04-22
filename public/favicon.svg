@@ -1,4 +1,18 @@
-<svg width="32" height="32" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+<!-- <svg width="32" height="32" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
 <style>.shape{fill:#FFC5F0;}</style>
 <path class="shape" d="M0 8 A16 16 0 0 1 16 24 L0 24 Z" fill="#FFC5F0"/>
-</svg> 
+</svg>  -->
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <!-- circular background -->
+  <circle cx="100" cy="100" r="100" fill="#C6C2F2"/>
+  <!-- dark C -->
+  <text
+    x="50%" y="50%"
+    text-anchor="middle"
+    dominant-baseline="central"
+    font-family="Helvetica, sans-serif"
+    font-weight="bold"
+    font-size="160"
+    fill="#020817"
+  >C</text>
+</svg>

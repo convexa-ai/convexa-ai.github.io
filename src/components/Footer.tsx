@@ -50,17 +50,50 @@ const Footer = () => {
               </a>
             </div> */}
 
-            <div className="mt-2">
+            {/* <div className="mt-2">
               <a href="#" className="block">
                 <svg width="300" height="100" xmlns="http://www.w3.org/2000/svg">
                   <style>
                     {`.text { font-family: 'Helvetica', sans-serif; font-size: 36px; font-weight: bold; fill: #C6C2F2; }
                     .shape { fill: #C6C2F2; }`}
                   </style>
-                   {/* Quarter circle convex shape */}
                    <path className="shape" d="M0 20 A40 40 0 0 1 40 60 L0 60 Z" />
                    <text x="50" y="60" className="text">Convexa AI</text>
                 </svg>
+              </a>
+            </div> */}
+
+            {/* <div className="mt-2">
+              <a href="#" className="block">
+                <svg width="300" height="100" viewBox="0 0 500 100" xmlns="http://www.w3.org/2000/svg">
+                  <style>
+                    {`.text { font-family: 'Helvetica', sans-serif; font-size: 36px; font-weight: bold; fill: #C6C2F2; }
+                    .shape { fill: #C6C2F2; }`}
+                  </style> */}
+                   {/* Lavender crescent shape */}
+                   {/* <g transform="translate(0, 0) scale(0.2)">
+                     <path className="shape" d="M234.512,392.528
+                           C173.12,371.648 132.424,316.544 132.424,250
+                           C132.424,183.456 173.12,128.352 234.512,107.472
+                           C220.096,147.296 212.888,193.312 212.888,250
+                           C212.888,306.688 220.096,352.704 234.512,392.528
+                           Z
+                           M224.032,373.616
+                           C211.576,341.056 205.348,300.36 205.348,250
+                           C205.348,199.64 211.576,158.944 224.032,126.384
+                           C186.228,154.56 162.328,199.64 162.328,250
+                           C162.328,300.36 186.228,345.44 224.032,373.616
+                           Z" />
+                   </g> */}
+                   {/* <text x="48" y="65" className="text">Convexa AI</text>
+                </svg>
+              </a>
+            </div>
+          </div> */}
+
+          <div className="mt-2">
+              <a href="#" className="block">
+                <span className="text-2xl font-bold text-[#C6C2F2]">Convexa AI</span>
               </a>
             </div>
           </div>
