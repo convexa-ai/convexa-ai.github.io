@@ -116,7 +116,7 @@ const HowItWorksSection = () => {
           Your Roadmap to <span className="italic">AI Transformation</span>
         </h2>
         <p className="text-xl text-center max-w-4xl mx-auto mb-32">
-          Partner with us to navigate a structured, five-step approach that transforms challenges into opportunities for growth.
+          Leverage our structured, five-step approach to transform your challenges into opportunities for growth.
         </p>
         
         <div className="relative max-w-6xl mx-auto">
