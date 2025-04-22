@@ -11,7 +11,7 @@ type StatCardProps = {
 const StatCard = ({ number, description, bgColor, textColor }: StatCardProps) => {
   return (
     <div className={`${bgColor} ${textColor} p-8 rounded-lg h-full flex flex-col justify-between`}>
-      <div className="text-5xl md:text-6xl font-bold mb-6">{number}</div>
+      <div className="text-6xl md:text-6xl font-bold mb-6">{number}</div>
       <div className="text-base md:text-lg">{description}</div>
     </div>
   );
